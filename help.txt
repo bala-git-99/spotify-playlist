@@ -1,0 +1,18 @@
+user_playlist_create(user, name, public=True, collaborative=False, description='')
+Creates a playlist for a user
+
+Parameters:
+user - the id of the user
+name - the name of the playlist
+public - is the created playlist public
+collaborative - is the created playlist collaborative
+description - the description of the playlist
+
+
+playlist_add_items(playlist_id, items, position=None)
+Adds tracks/episodes to a playlist
+
+Parameters:
+playlist_id - the id of the playlist
+items - a list of track/episode URIs or URLs
+position - the position to add the tracks
